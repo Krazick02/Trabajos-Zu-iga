@@ -1,0 +1,46 @@
+/* body{
+    margin: 0;
+}canvas{
+    display: block;
+} */
+
+.main {
+    background-color: aqua;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main label {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main input {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.main input:invalid {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.main button {
+    color: black;
+    background-color: chartreuse;
+}
+.main button:hover {
+    color: black;
+    background-color: blue;
+}
+
+.canvasDiv {
+    padding: 0;
+    height: 80vh;
+    width: 100vw;
+}
